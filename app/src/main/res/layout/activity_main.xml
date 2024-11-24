@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Player View for ExoPlayer -->
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <!-- Button 1: Start Player -->
+    <Button
+        android:id="@+id/start_player_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Player"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Button 2: Stop Player -->
+    <Button
+        android:id="@+id/stop_player_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Player"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
